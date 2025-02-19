@@ -1,0 +1,11 @@
+[package]
+name = "beam_node"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+erlang-term = {path= "/home/treere/Documents/software/erlang-term/", features = ["serde_impl", "serde"]}
+
+[build-dependencies]
+bindgen = "0.64.0"
+dotenv = "0.15.0"
