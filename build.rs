@@ -18,7 +18,7 @@ fn main() {
     println!("cargo:rustc-link-search={}/usr/lib", erlang_path);
     println!("cargo:rerun-if-changed=build.rs");
 
-    // The bindgen::Builder is the main entry point
+    // THE bindgen::Builder is the main entry point
     // to bindgen, and lets you build up options for
     // the resulting bindings.
     let bindings = bindgen::Builder::default()
